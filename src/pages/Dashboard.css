@@ -1,0 +1,64 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(217deg, rgba(255, 255, 255, 0.8), rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, rgba(112, 180, 245, 0.8), rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, rgba(90, 188, 245, 0.8), rgba(0,0,255,0) 70.71%);
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+
+.dashboard-container {
+  min-height: 100vh; /* S'étend sur toute la hauteur de l'écran */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboard-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.boite-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 colonnes */
+  gap: 20px;
+  justify-content: center;
+}
+
+.boite-item {
+  background-color: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.boite-item:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.boite-image {
+  width: 50%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.boite-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}

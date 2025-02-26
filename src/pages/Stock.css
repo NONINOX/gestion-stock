@@ -1,0 +1,128 @@
+/* Centrer le contenu */
+.stock-container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style du tableau */
+  .stock-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .stock-table th, 
+  .stock-table td {
+    border: 2px solid #007bff;
+    padding: 10px;
+  }
+  
+  .stock-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Formulaire en ligne */
+  .stock-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Champs de saisie */
+  .stock-input {
+    width: 180px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Petite zone de saisie pour retirer du stock */
+  .stock-input-small {
+    width: 80px;
+    padding: 6px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Style des boutons */
+  .stock-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+  }
+  
+  .stock-button.bg-blue-500 {
+    background-color: #007bff;
+    color: rgb(158, 156, 156);
+  }
+  
+  .stock-button.bg-blue-500:hover {
+    background-color: #0056b3;
+  }
+  
+  .stock-button.bg-yellow-500 {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .stock-button.bg-yellow-500:hover {
+    background-color: #e0a800;
+  }
+  
+  .stock-button.bg-red-500 {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .stock-button.bg-red-500:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsivité */
+  @media (max-width: 768px) {
+    .stock-container {
+      max-width: 95%;
+    }
+  
+    .stock-form {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .stock-input {
+      width: 100%;
+    }
+  
+    .stock-button {
+      width: 100%;
+    }
+  }
+
+  /* Styles pour le bouton Ajouter */
+.stock-button.bg-green-500 {
+    background-color: #28a745; /* Vert */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .stock-button.bg-green-500:hover {
+    background-color: #218838; /* Vert plus foncé au survol */
+  }
+  
