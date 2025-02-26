@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gestion-stock/static/css/main.08484328.css",
-    "main.js": "/gestion-stock/static/js/main.df9732c1.js",
+    "main.js": "/gestion-stock/static/js/main.c855d1ea.js",
     "static/js/453.20e31c40.chunk.js": "/gestion-stock/static/js/453.20e31c40.chunk.js",
     "index.html": "/gestion-stock/index.html",
     "main.08484328.css.map": "/gestion-stock/static/css/main.08484328.css.map",
-    "main.df9732c1.js.map": "/gestion-stock/static/js/main.df9732c1.js.map",
+    "main.c855d1ea.js.map": "/gestion-stock/static/js/main.c855d1ea.js.map",
     "453.20e31c40.chunk.js.map": "/gestion-stock/static/js/453.20e31c40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08484328.css",
-    "static/js/main.df9732c1.js"
+    "static/js/main.c855d1ea.js"
   ]
 }
